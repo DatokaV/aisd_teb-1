@@ -18,8 +18,5 @@ public class Task1 {
         //3
 
         //todo tutaj wykonaj zadanie
-
-
     }
-
 }
