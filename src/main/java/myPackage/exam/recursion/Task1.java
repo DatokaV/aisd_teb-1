@@ -19,6 +19,17 @@ public class Task1 {
 
         //todo tutaj wykonaj zadanie
         int i, j;
+
+        for(i=0; i<printNumberPyramid(); i++)
+        {
+
+            for(j=0; j<=i; j++)
+            {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
     }
+
 }
 
