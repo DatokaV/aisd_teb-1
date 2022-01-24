@@ -34,7 +34,7 @@ public class Task1 {
 
     public static void main(String args[])
     {
-        int n =13;
+        int n =56;
         printNumberPyramid(n);
     }
 }
