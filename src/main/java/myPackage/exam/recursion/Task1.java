@@ -18,18 +18,23 @@ public class Task1 {
         //3
 
         //todo tutaj wykonaj zadanie
+
         int i, j;
 
-        for(i=0; i<printNumberPyramid(); i++)
+        for(i=0; i<numberOfPyramidLevels; i++)
         {
 
             for(j=0; j<=i; j++)
             {
-                System.out.print("* ");
+                System.out.print("3");
             }
             System.out.println();
         }
     }
 
+    public static void main(String args[])
+    {
+        int n =13;
+        printNumberPyramid(n);
+    }
 }
-
